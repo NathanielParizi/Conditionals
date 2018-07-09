@@ -62,10 +62,10 @@ int main() {
 		cout << "It isn't true that '" << myChar << "' is equal to z!" << endl;
 	}
 
-
 	char userChar;
 
-	cout << "There are two magic letters. Guess one of the magic letters!" << flush;
+	cout << "There are two magic letters. Guess one of the magic letters!"
+			<< flush;
 	cout << "Enter your own char: " << endl;
 	cin >> userChar;
 	cout << "Your user char is: " << userChar << endl;
