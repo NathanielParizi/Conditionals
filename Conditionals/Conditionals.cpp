@@ -35,6 +35,15 @@ int main() {
 		cout << "Access denied!" << endl;
 	}
 
+	cout << "Enter a value from 1 - 10 " << endl;
+	int num;
+	cin >> num;
+	if (num >= 1 && num <= 10) {
+		cout << "correct entry." << endl;
+	} else {
+		cout << "incorrect entry" << endl;
+	}
+
 	//************Boolean conditionals
 	if (x | y) {
 		cout << "TRUE" << endl;
@@ -43,7 +52,6 @@ int main() {
 	if (!(x & y)) {
 		cout << "FALSE" << endl;
 	}
-
 
 	//*************************Character conditionals
 	char myChar = 'z';
