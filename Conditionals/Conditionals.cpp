@@ -62,6 +62,22 @@ int main() {
 		cout << "It isn't true that '" << myChar << "' is equal to z!" << endl;
 	}
 
+
+	char userChar;
+
+	cout << "There are two magic letters. Guess one of the magic letters!" << flush;
+	cout << "Enter your own char: " << endl;
+	cin >> userChar;
+	cout << "Your user char is: " << userChar << endl;
+
+	if (userChar == 'a') {
+		cout << "Yes, you guess a magic letter correctly." << endl;
+	} else if (userChar == 'z') {
+		cout << "Yes, you guess a magic letter correctly." << endl;
+	} else {
+		cout << "No, you guess the magic letter incorrectly." << endl;
+	}
+
 	return 0;
 }
 
