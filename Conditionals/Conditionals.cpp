@@ -44,6 +44,8 @@ int main() {
 		cout << "FALSE" << endl;
 	}
 
+
+	//*************************Character conditionals
 	char myChar = 'z';
 
 	if (myChar == 'z') {
